@@ -24,7 +24,7 @@ export const TaskForm = () => {
       </div>
       <div className="derecha">
         <div>
-          <Picture imagen={Asiatica}></Picture>
+          <Picture imagen={Asiatica} texto='Excepteur sit minim exercitation fugiat dolore sit consectetur enim magna. Sunt in deserunt et. Qui nostrud eiusmod amet officia.'></Picture>
         </div>
       </div>
     </div>

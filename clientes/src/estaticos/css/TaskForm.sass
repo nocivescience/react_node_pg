@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap')
-$amplitud-mayor: 90vw
+$amplitud-mayor: 100vw
 $titulo-formulario: 'Poppins', sans-serif
 $size-large-formulario: 3em
 $size-medium-formulario: 2em
@@ -20,7 +20,7 @@ $color-entrada: #363636
     align-items: start
 .pantalla
     display: flex
-    justify-content: center
+    justify-content: space-around
     width: $amplitud-mayor
     height: 90vh
 .izquierda
@@ -33,11 +33,11 @@ $color-entrada: #363636
     box-shadow: 0 0 8px #525252
     border-radius: 4px
     @media (max-width: $maximo) and (min-width: $minimo)
-            height: 75%
+        height: 75%
     @media (max-width: $minimo)
         height: 70%
     margin-top: 30px
-    margin-left: 30px
+    // margin-left: 30px
     padding-top: 15px
     background-color: #1c1c1c
     overflow: hidden
@@ -92,5 +92,5 @@ $color-entrada: #363636
                 width: 100px
 .derecha
     display: flex
-    justify-content: center
-    width: 50%
+    justify-content: end
+    width: 30%
